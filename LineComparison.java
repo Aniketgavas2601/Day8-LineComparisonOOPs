@@ -44,6 +44,7 @@ public static void main(String[] args) {
         }
 
     }
+    //get lenght of Line
 public static int getLengthOfLine() {
     return (int) Math.sqrt( (x2 - x1) ^ 2 + (y2 - y1) ^ 2);
 }
