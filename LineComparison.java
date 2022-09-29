@@ -31,7 +31,16 @@ public static void main(String[] args) {
         System.out.println("Length Of Line " + i + " :" + lineLength);
 
         //compare and check Equality
-       
+        if (lineLengthArray[0] == lineLengthArray[1]) {
+            System.out.println("Line 1 and Line 2 are Equal");
+        } else if (lineLengthArray[0] > lineLengthArray[1]) {
+            System.out.println("Line 1 is Grater than Line 2");
+
+        }
+        else {
+            System.out.println("Line 1 is Smaller thane line 2");
+        }
+
         }
 
     }
